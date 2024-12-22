@@ -2036,3 +2036,7 @@ body {
 .myServElmosbah h2 a{
   color: #fff;
 }
+
+.featured .left-image a {
+    animation: bounceIcon 1s infinite alternate;
+}
