@@ -2040,6 +2040,7 @@ background-color: rgba(0, 0, 0, 0.6);
 .myServElmosbah h2 a {
   color: #fff;
 }
+<<<<<<< HEAD
 @media (max-width: 755px) {
   .main-banner .owl-dots {
     bottom: 35px;
@@ -2071,3 +2072,9 @@ background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
+=======
+
+.featured .left-image a {
+    animation: bounceIcon 1s infinite alternate;
+}
+>>>>>>> c5d081a0f35393c4cb021ee9d13f4a18be1eeefa
