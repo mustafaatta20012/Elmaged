@@ -1426,8 +1426,8 @@ footer {
 
 footer p {
   text-align: center;
-  line-height: 100px;
-  color: #fff;
+  line-height: 25px;
+  color: #0b0b0b;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1956,7 +1956,6 @@ body {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  aspect-ratio: 16 / 9;
   background-image: url(../images/شركة-تنظيف-منازل.jpg);
   background-position: center;
   background-size: contain;
@@ -1979,13 +1978,17 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px; /* حجم الأيقونة */
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6); /* خلفية شفافة */
-  padding: 15px;
-  border-radius: 50%; /* خلفية دائرية */
-  cursor: pointer;
-  transition: transform 0.3s, background-color 0.3s; /* تأثير عند التمرير */
+  font-size: 50px;
+  /*حجمالأيقونة*/color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*خلفيةشفافة*/padding: 15px;
+  border-radius: 50%;
+  /*خلفيةدائرية*/cursor: pointer;
+  transition: transform .3s, background-color 0.3s;
+  /*تأثيرعندالتمرير*/
+}
+.video-content .video-frame a:focus {
+background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* تأثير التمرير على الأيقونة */
@@ -2013,26 +2016,58 @@ body {
   color: #fff;
 }
 .contectTo .contectMe a.phone {
-    background-color: #f35525;
-    animation: bounceIcon 1.5s infinite alternate;
-    -webkit-animation: bounceIcon 1s infinite alternate;
-    font-size: 25px;
+  background-color: #f35525;
+  animation: bounceIcon 1.5s infinite alternate;
+  -webkit-animation: bounceIcon 1s infinite alternate;
+  font-size: 25px;
 }
 .contectTo .contectMe a.whatsApp {
   background: #40e15d;
-      margin-top: 15px;
-      font-size: 22px;
+  margin-top: 15px;
+  font-size: 22px;
 }
-.arabicStyler{
+.arabicStyler {
   direction: rtl;
 }
-.myServElmosbah{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/contact-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.myServElmosbah {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/contact-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.myServElmosbah h2 a{
+.myServElmosbah h2 a {
   color: #fff;
 }
+@media (max-width: 755px) {
+  .main-banner .owl-dots {
+    bottom: 35px;
+    left: 12%;
+  }
+}
+@media (max-width: 660px) {
+  .mytranstion {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+  }
+}
+@media (max-width:500px) {
+  
+  .owl-nav{
+    display: none;
+  }
+}@media (max-width:500px) {
+  
+  .video-frame {
+    height: 400px;
+  }
+}@media (min-width:500px) {
+  
+  .video-frame {
+  aspect-ratio: 16 / 9;
+  }
+}
+

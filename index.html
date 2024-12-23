@@ -115,10 +115,7 @@ https://templatemo.com/tm-591-villa-agency
     <div class="main-banner">
       <div class="owl-carousel owl-banner">
         <div class="item item-1 arabicStyler">
-          <div class="header-text">
-            <span class="category arabicStyler wow animate__fadeInRight">
-              شركة <em>الماجد</em></span
-            >
+          <div class="header-text mytranstion">
             <h2 class="text-center wow animate__fadeInLeft">
               الماجد!<br />شركة لنقل الأثاث والتنظيف بأحدث الوسائل التكنولوجيه
             </h2>
@@ -385,8 +382,14 @@ https://templatemo.com/tm-591-villa-agency
             <div class="tabs-content">
               <div class="row">
                 <div class="nav-wrapper">
-                  <ul class="nav nav-tabs wow animate__fadeInDown" role="tablist">
-                    <li class="nav-item wow animate__fadeInLeft" role="presentation">
+                  <ul
+                    class="nav nav-tabs wow animate__fadeInDown"
+                    role="tablist"
+                  >
+                    <li
+                      class="nav-item wow animate__fadeInLeft"
+                      role="presentation"
+                    >
                       <button
                         class="nav-link active"
                         id="appartment-tab"
@@ -400,7 +403,10 @@ https://templatemo.com/tm-591-villa-agency
                         نقل الاثاث
                       </button>
                     </li>
-                    <li class="nav-item wow animate__fadeInRight" role="presentation ">
+                    <li
+                      class="nav-item wow animate__fadeInRight"
+                      role="presentation "
+                    >
                       <button
                         class="nav-link"
                         id="villa-tab"
@@ -414,7 +420,10 @@ https://templatemo.com/tm-591-villa-agency
                         عن النظافة
                       </button>
                     </li>
-                    <li class="nav-item wow animate__fadeInLeft" role="presentation">
+                    <li
+                      class="nav-item wow animate__fadeInLeft"
+                      role="presentation"
+                    >
                       <button
                         class="nav-link"
                         id="penthouse-tab"
@@ -428,7 +437,10 @@ https://templatemo.com/tm-591-villa-agency
                         ترتيب المنزل
                       </button>
                     </li>
-                    <li class="nav-item wow animate__fadeInRight" role="presentation">
+                    <li
+                      class="nav-item wow animate__fadeInRight"
+                      role="presentation"
+                    >
                       <a href="https://www.elmosbah.com">
                         <button
                           class="nav-link"
@@ -751,11 +763,13 @@ https://templatemo.com/tm-591-villa-agency
           // تغيير الأيقونة إلى فتح القفل (عند التشغيل)
           icon.classList.remove("fa-lock");
           icon.classList.add("fa-unlock");
+          playIcon.classList.add("transparent-background");
         } else {
           video.pause();
           // تغيير الأيقونة إلى قفل (عند الإيقاف)
           icon.classList.remove("fa-unlock");
           icon.classList.add("fa-lock");
+          playIcon.classList.remove("transparent-background");
         }
       }
     </script>
